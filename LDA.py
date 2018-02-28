@@ -1,6 +1,6 @@
 import numpy as np
 
-#Moore-Penrose
+
 def inverse(a):  
     """ 
     奇异值分解求矩阵的逆 

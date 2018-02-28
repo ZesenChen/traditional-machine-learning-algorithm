@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+
 def KMeans(X, class_num, max_circle = 300):
     data_num, feature_num = X.shape[0], X.shape[1]
     init = [random.randint(0,class_num) for i in range(class_num)]

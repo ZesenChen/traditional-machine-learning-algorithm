@@ -1,5 +1,6 @@
 import numpy as np
 
+
 #d:the dimension that we want X to reduce to
 def PCA(X, d):
     num = X.shape[0]
